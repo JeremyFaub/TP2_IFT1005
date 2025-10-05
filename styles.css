@@ -1,0 +1,72 @@
+/*
+Devoir 2 - IFT1005
+Auteur : Jérémy Faubert
+Matricule : 20274993
+Fichier : style.css
+*/
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #40407A;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header, footer {
+    background-color: #80CBC4;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 1.8em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #40407A;
+    font-weight: bold;
+  }
+  
+  nav a.active {
+    color: blue;
+  }
+  
+  main {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  main h2 {
+    font-size: 1.4em;
+    margin-top: 0;
+  }
+  
+  footer p {
+    font-size: 0.9em;
+    margin: 0;
+    padding: 5px;
+  }
+  
+  main p {
+    margin: 0;
+  }
+  
+  main p.course-description {
+    margin: 0;
+    margin-left: 20px;
+  }
+  
